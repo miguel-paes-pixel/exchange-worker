@@ -8,3 +8,4 @@ class CotacaoRepository:
 
         with open("historico_dolar.txt", "a") as f:
             f.write(f"[{agora}] Valor do Dólar: R$ {valor}\n")
+        
